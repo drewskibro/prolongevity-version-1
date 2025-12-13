@@ -19,12 +19,14 @@
           colors: {
             'prolongevity-purple': '#3a126e',
             'prolongevity-lime': '#79bb1d',
+            'prolongevity-teal': '#209c91',
             'prolongevity-dark': '#1a0b2e',
             'off-white': '#fcfcfc'
           },
           boxShadow: {
             'glow-purple': '0 0 80px -20px rgba(58, 18, 110, 0.4)',
             'glow-lime': '0 0 80px -20px rgba(121, 187, 29, 0.4)',
+            'glow-teal': '0 0 80px -20px rgba(32, 156, 145, 0.4)',
             'premium': '0 20px 40px -10px rgba(0, 0, 0, 0.05)'
           },
           backgroundImage: {
@@ -142,7 +144,7 @@
       left: 0;
       bottom: -8px;
       height: 2px;
-      background: linear-gradient(90deg, var(--tw-gradient-stops, #79bb1d, #79bb1d) 0%, transparent 100%);
+      background: linear-gradient(90deg, var(--tw-gradient-stops, #209c91, #209c91) 0%, transparent 100%);
       animation: drawLine 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
 
@@ -216,7 +218,7 @@
       </nav>
 
       <div class="hidden lg:flex items-center">
-        <a href="pricing.html" class="flex items-center gap-2 text-white text-[15px] font-semibold px-7 py-3.5 rounded-full shadow-lg hover:shadow-xl transition-all hover-lift" style="background: linear-gradient(135deg, #79bb1d 0%, #6aa519 100%);">
+        <a href="pricing.html" class="flex items-center gap-2 text-white text-[15px] font-semibold px-7 py-3.5 rounded-full shadow-lg hover:shadow-xl transition-all hover-lift" style="background: linear-gradient(135deg, #209c91 0%, #1a8078 100%);">
           Get Started
         </a>
       </div>
@@ -228,7 +230,7 @@
     <!-- Atmospheric Background Effects -->
     <div class="absolute inset-0 bg-gradient-to-br from-prolongevity-dark via-purple-900/90 to-prolongevity-dark -z-20"></div>
     <div class="absolute top-0 right-0 w-[1000px] h-[1000px] bg-purple-600/20 rounded-full blur-[150px] -z-10 opacity-60 pointer-events-none animate-pulse"></div>
-    <div class="absolute bottom-0 left-0 w-[800px] h-[800px] bg-lime-500/10 rounded-full blur-[120px] -z-10 opacity-40 pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-[800px] h-[800px] bg-teal-500/10 rounded-full blur-[120px] -z-10 opacity-40 pointer-events-none"></div>
     
     <!-- Noise Texture Overlay -->
     <div class="absolute inset-0 opacity-[0.03] pointer-events-none -z-10" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.08%22/%3E%3C/svg%3E');"></div>
@@ -241,9 +243,9 @@
           <!-- Badge with Decorative Line -->
           <div class="section-header-wrapper mb-8 animate-slide-in-left delay-100">
             <div class="flex items-center gap-4">
-              <div class="w-[3px] h-7 bg-gradient-to-b rounded-sm shadow-md" style="background: linear-gradient(to bottom, #79bb1d, #6aa519);"></div>
-              <div class="section-header" style="--tw-gradient-stops: #79bb1d, #6aa519;">
-                <p class="text-sm font-bold tracking-[3px] uppercase text-prolongevity-lime">CLINICAL INSIGHT: THE REBOUND EFFECT</p>
+              <div class="w-[3px] h-7 bg-gradient-to-b rounded-sm shadow-md" style="background: linear-gradient(to bottom, #209c91, #1a8078);"></div>
+              <div class="section-header" style="--tw-gradient-stops: #209c91, #209c91;">
+                <p class="text-sm font-bold tracking-[3px] uppercase" style="color: #209c91;">CLINICAL INSIGHT: THE REBOUND EFFECT</p>
               </div>
             </div>
           </div>
@@ -251,7 +253,7 @@
           <!-- Headline with Editorial Italics -->
           <h1 class="text-white text-[48px] lg:text-[72px] font-bold tracking-tight leading-[1.05] mb-8 font-playfair_display">
             What Happens When You <br/>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-prolongevity-lime to-prolongevity-lime pr-4 inline-block">Stop <i>Mounjaro?</i></span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r pr-4 inline-block" style="background: linear-gradient(to right, #209c91, #209c91); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Stop <i>Mounjaro?</i></span>
           </h1>
           
           <!-- Subheadline -->
@@ -261,12 +263,12 @@
 
           <!-- Single CTA -->
           <div class="mb-14">
-            <button class="group relative flex items-center justify-center gap-3 text-white text-[19px] font-bold px-14 py-6 rounded-full shadow-2xl hover:shadow-glow-lime transition-all duration-500 hover:-translate-y-3 hover:scale-110 w-full sm:w-auto overflow-hidden" style="background: linear-gradient(135deg, #79bb1d 0%, #6aa519 100%);">
+            <button class="group relative flex items-center justify-center gap-3 text-white text-[19px] font-bold px-14 py-6 rounded-full shadow-2xl transition-all duration-500 hover:-translate-y-3 hover:scale-110 w-full sm:w-auto overflow-hidden" style="background: linear-gradient(135deg, #209c91 0%, #1a8078 100%); box-shadow: 0 20px 60px rgba(32, 156, 145, 0.3);">
               <!-- Animated Shine Effect -->
               <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
               
               <!-- Pulsing Glow -->
-              <div class="absolute inset-0 rounded-full bg-prolongevity-lime/40 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+              <div class="absolute inset-0 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10" style="background-color: rgba(32, 156, 145, 0.4);"></div>
               
               <span class="relative z-10 flex items-center gap-3">
                 <i class="fas fa-play-circle text-2xl group-hover:scale-110 transition-transform duration-300"></i>
@@ -275,20 +277,19 @@
             </button>
           </div>
 
-
           <!-- Trust Badges (Premium Dark Mode) -->
           <div class="flex flex-wrap items-center gap-4 mt-8">
             <div class="flex items-center gap-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-3 rounded-full shadow-lg hover:bg-white/15 transition-all cursor-default group">
-              <i class="fas fa-check-circle text-prolongevity-lime text-lg group-hover:scale-110 transition-transform"></i>
-              <span class="text-white font-semibold text-sm tracking-wide">Drug-Free</span>
+              <i class="fas fa-check-circle text-lg group-hover:scale-110 transition-transform" style="color: #209c91;"></i>
+              <span class="text-white font-semibold text-sm tracking-wide">Keep Weight Off</span>
             </div>
             <div class="flex items-center gap-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-3 rounded-full shadow-lg hover:bg-white/15 transition-all cursor-default group">
-              <i class="fas fa-chart-line text-prolongevity-lime text-lg group-hover:scale-110 transition-transform"></i>
-              <span class="text-white font-semibold text-sm tracking-wide">Data-Driven</span>
+              <i class="fas fa-ban text-lg group-hover:scale-110 transition-transform" style="color: #209c91;"></i>
+              <span class="text-white font-semibold text-sm tracking-wide">Stop Injections</span>
             </div>
             <div class="flex items-center gap-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-3 rounded-full shadow-lg hover:bg-white/15 transition-all cursor-default group">
-              <i class="fas fa-user-md text-prolongevity-lime text-lg group-hover:scale-110 transition-transform"></i>
-              <span class="text-white font-semibold text-sm tracking-wide">Pharmacist-Led</span>
+              <i class="fas fa-heart-pulse text-lg group-hover:scale-110 transition-transform" style="color: #209c91;"></i>
+              <span class="text-white font-semibold text-sm tracking-wide">Fix Metabolism</span>
             </div>
           </div>
 
@@ -297,7 +298,7 @@
         <!-- RIGHT: Hero Visual (CGM Device Showcase) -->
         <div class="relative animate-scale-in delay-300 lg:pl-10">
           <!-- Pulsing Glow Effect -->
-          <div class="absolute inset-0 bg-gradient-to-tr from-prolongevity-lime/20 to-purple-500/20 rounded-[3rem] blur-3xl transform scale-110 -z-10 animate-pulse"></div>
+          <div class="absolute inset-0 bg-gradient-to-tr rounded-[3rem] blur-3xl transform scale-110 -z-10 animate-pulse" style="background: linear-gradient(to top right, rgba(32, 156, 145, 0.2), rgba(139, 69, 19, 0.2));"></div>
           
           <!-- Main Visual Container -->
           <div class="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/10 bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-xl">
@@ -311,7 +312,7 @@
             <div class="absolute bottom-8 left-8 right-8">
               <div class="bg-prolongevity-dark/90 backdrop-blur-xl border-2 border-white/30 rounded-2xl p-6 shadow-2xl">
                 <div class="flex items-center justify-between mb-4">
-                  <div class="inline-block px-4 py-2 bg-prolongevity-lime rounded-full shadow-lg">
+                  <div class="inline-block px-4 py-2 rounded-full shadow-lg" style="background-color: #209c91;">
                     <p class="text-xs font-bold uppercase tracking-widest text-white flex items-center gap-2">
                       <i class="fas fa-circle text-[6px] animate-pulse"></i>
                       DRUG-FREE METHOD
@@ -330,7 +331,7 @@
 
             <!-- Floating Glucose Reading (Top Right) - BETTER SPACING -->
             <div class="absolute top-6 right-6">
-              <div class="bg-prolongevity-lime rounded-2xl p-5 shadow-2xl border-2 border-white/30">
+              <div class="rounded-2xl p-5 shadow-2xl border-2 border-white/30" style="background-color: #209c91;">
                 <div class="text-white text-xs font-bold uppercase tracking-wider mb-1 drop-shadow-md">Glucose Level</div>
                 <div class="text-white text-4xl font-bold font-playfair_display drop-shadow-md">5.2</div>
                 <div class="text-white text-xs font-semibold mt-1 drop-shadow-md">mmol/L • Optimal</div>
@@ -339,7 +340,7 @@
 
             <!-- Animated Pulse Indicator -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-              <div class="w-32 h-32 rounded-full bg-prolongevity-lime/20 animate-ping"></div>
+              <div class="w-32 h-32 rounded-full animate-ping" style="background-color: rgba(32, 156, 145, 0.2);"></div>
             </div>
           </div>
 
@@ -359,22 +360,22 @@
       
       <div class="text-center mb-16 animate-fade-in-up delay-100">
         <div class="inline-block mb-6">
-          <div class="section-header" style="--tw-gradient-stops: #79bb1d, #79bb1d;">
-            <p class="text-prolongevity-lime font-bold tracking-[3px] text-sm uppercase">A MESSAGE FROM GRAHAM PHILLIPS</p>
+          <div class="section-header" style="--tw-gradient-stops: #209c91, #209c91;">
+            <p class="font-bold tracking-[3px] text-sm uppercase" style="color: #209c91;">A MESSAGE FROM GRAHAM PHILLIPS</p>
           </div>
         </div>
         <h2 class="text-white text-4xl md:text-6xl font-bold font-playfair_display mb-8 leading-tight">
           Why I Stopped Prescribing <br/>and Started <i>Coaching Small Groups</i>
         </h2>
-        <p class="text-slate-300 text-xl max-w-3xl mx-auto leading-relaxed font-light">
-          "After 35 years as an NHS pharmacist, I realized we were treating symptoms, not causes. Mounjaro is no different. You deserve the truth."
+        <p class="text-slate-300 text-xl max-w-3xl mx-auto leading-relaxed font-medium">
+          "After 35 years prescribing weight loss drugs, I've watched thousands lose weight—then gain it all back. Mounjaro users face the same cycle. There's a better way."
         </p>
       </div>
 
       <!-- Video Container (Atmosphere Upgrade) -->
       <div class="relative w-full max-w-[1000px] mx-auto mb-20 animate-scale-in delay-200">
         <!-- Pulsing Glow -->
-        <div class="absolute -inset-4 bg-prolongevity-lime/10 rounded-[2.5rem] blur-2xl animate-pulse opacity-60"></div>
+        <div class="absolute -inset-4 rounded-[2.5rem] blur-2xl animate-pulse opacity-60" style="background-color: rgba(32, 156, 145, 0.1);"></div>
         
         <div class="relative rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white/10 bg-black" style="padding-top: 56.25%;">
           <iframe 
@@ -388,31 +389,57 @@
         </div>
       </div>
 
-      <!-- Credentials Footer (Dark Mode Grid) -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-white/10 pt-16 animate-fade-in-up delay-300">
-        <div class="flex flex-col items-center text-center p-8 rounded-3xl bg-white/5 border border-white/10 shadow-sm hover:bg-white/10 transition-all duration-300 group">
-          <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-prolongevity-lime mb-6 shadow-inner group-hover:scale-110 transition-transform">
-            <i class="fas fa-certificate text-2xl"></i>
+      <!-- Fear-to-Hope Transformation Cards (Refined) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px] border-t border-white/10 pt-16 animate-fade-in-up delay-300">
+        
+        <!-- CARD 1: Warning/Fear (Coral/Rose Gold) -->
+        <div class="flex flex-col items-center text-center p-10 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 group">
+          <!-- Icon Circle -->
+          <div class="w-[60px] h-[60px] rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_24px_rgba(251,113,133,0.2)]" style="background: linear-gradient(135deg, rgba(251, 113, 133, 0.12) 0%, rgba(244, 63, 94, 0.08) 100%); border: 1.5px solid rgba(251, 113, 133, 0.25);">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: #fb7185;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+            </svg>
           </div>
-          <h4 class="font-bold text-white text-lg mb-2">Royal Pharmaceutical Society</h4>
-          <p class="text-slate-400 font-medium">Fellow Status (FRPharmS)</p>
+          
+          <!-- Headline -->
+          <h4 class="font-bold text-white text-[28px] mb-4 leading-tight font-playfair_display">66% Regain It All</h4>
+          
+          <!-- Subtext (Larger & More Readable) -->
+          <p class="text-white/70 font-medium text-[17px] leading-relaxed">Within 12 months of stopping Mounjaro</p>
         </div>
         
-        <div class="flex flex-col items-center text-center p-8 rounded-3xl bg-white/5 border border-white/10 shadow-sm hover:bg-white/10 transition-all duration-300 group">
-          <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-prolongevity-lime mb-6 shadow-inner group-hover:scale-110 transition-transform">
-            <i class="fas fa-history text-2xl"></i>
+        <!-- CARD 2: Transformation/Hope (Teal/Mint) -->
+        <div class="flex flex-col items-center text-center p-10 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 group">
+          <!-- Icon Circle -->
+          <div class="w-[60px] h-[60px] rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_24px_rgba(45,212,191,0.2)]" style="background: linear-gradient(135deg, rgba(45, 212, 191, 0.12) 0%, rgba(20, 184, 166, 0.08) 100%); border: 1.5px solid rgba(45, 212, 191, 0.25);">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: #2dd4bf;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
           </div>
-          <h4 class="font-bold text-white text-lg mb-2">35 Years Experience</h4>
-          <p class="text-slate-400 font-medium">NHS & Private Practice</p>
+          
+          <!-- Headline -->
+          <h4 class="font-bold text-white text-[28px] mb-4 leading-tight font-playfair_display">Our Members Don't</h4>
+          
+          <!-- Subtext (Larger & More Readable) -->
+          <p class="text-white/70 font-medium text-[17px] leading-relaxed">Because they fix metabolism, not just appetite</p>
         </div>
 
-        <div class="flex flex-col items-center text-center p-8 rounded-3xl bg-white/5 border border-white/10 shadow-sm hover:bg-white/10 transition-all duration-300 group">
-          <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center text-prolongevity-lime mb-6 shadow-inner group-hover:scale-110 transition-transform">
-            <i class="fas fa-award text-2xl"></i>
+        <!-- CARD 3: Urgency/Scarcity (Gold/Amber) -->
+        <div class="flex flex-col items-center text-center p-10 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_30px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 group">
+          <!-- Icon Circle -->
+          <div class="w-[60px] h-[60px] rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 shadow-[0_0_24px_rgba(251,191,36,0.2)]" style="background: linear-gradient(135deg, rgba(251, 191, 36, 0.12) 0%, rgba(245, 158, 11, 0.08) 100%); border: 1.5px solid rgba(251, 191, 36, 0.25);">
+            <svg class="w-12 h-12" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" style="color: #fbbf24;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+            </svg>
           </div>
-          <h4 class="font-bold text-white text-lg mb-2">Award-Winning</h4>
-          <p class="text-slate-400 font-medium">2020 Health Initiative Winner</p>
+          
+          <!-- Headline -->
+          <h4 class="font-bold text-white text-[28px] mb-4 leading-tight font-playfair_display">January 6th Start</h4>
+          
+          <!-- Subtext (Larger & More Readable) -->
+          <p class="text-white/70 font-medium text-[17px] leading-relaxed">Limited to 10 members - join the next cohort</p>
         </div>
+
       </div>
 
     </div>
@@ -422,24 +449,24 @@
   <section class="relative py-32 bg-white overflow-hidden">
     <!-- Atmospheric Background Effects -->
     <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-purple-100/20 rounded-full blur-[120px] pointer-events-none"></div>
-    <div class="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-lime-50/30 rounded-full blur-[100px] pointer-events-none"></div>
+    <div class="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-teal-50/30 rounded-full blur-[100px] pointer-events-none"></div>
     
     <!-- Decorative Quote Mark -->
     <div class="absolute top-20 left-10 text-[200px] font-playfair_display text-prolongevity-purple/5 leading-none pointer-events-none">"</div>
-    <div class="absolute bottom-20 right-10 text-[200px] font-playfair_display text-prolongevity-lime/5 leading-none pointer-events-none rotate-180">"</div>
+    <div class="absolute bottom-20 right-10 text-[200px] font-playfair_display leading-none pointer-events-none rotate-180" style="color: rgba(32, 156, 145, 0.05);">"</div>
 
     <div class="max-w-[1400px] mx-auto px-6 relative z-10">
       <div class="text-center mb-20">
         <div class="inline-block mb-6 animate-fade-in-up">
-          <div class="section-header" style="--tw-gradient-stops: #79bb1d, #79bb1d;">
-            <p class="text-prolongevity-lime font-bold tracking-[3px] text-sm uppercase">REAL TRANSFORMATIONS</p>
+          <div class="section-header" style="--tw-gradient-stops: #209c91, #209c91;">
+            <p class="font-bold tracking-[3px] text-sm uppercase" style="color: #209c91;">REAL TRANSFORMATIONS</p>
           </div>
         </div>
         <h2 class="text-gray-900 text-5xl md:text-7xl font-bold font-playfair_display mb-8 leading-tight animate-fade-in-up delay-200">
           Life Without <span class="text-transparent bg-clip-text bg-gradient-to-r from-prolongevity-purple to-purple-700">Medication</span>
         </h2>
         <p class="text-slate-600 text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed font-light animate-fade-in-up delay-300">
-          Real members. Real results. No drugs, no injections—just data-driven health transformation.
+          They Stopped the Injections. Kept the Weight Off. See firsthand how ProLongevity members escaped the rebound.
         </p>
       </div>
 
@@ -447,24 +474,24 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mb-16">
         
         <!-- HERO TESTIMONIAL - Robert M (Spans 2 columns, larger) -->
-        <div class="lg:col-span-7 bg-gradient-to-br from-white via-purple-50/30 to-white border-2 border-gray-100 rounded-[2rem] p-10 md:p-12 relative overflow-hidden group hover:border-prolongevity-lime/40 transition-all duration-500 animate-scale-in delay-400" style="box-shadow: 0 20px 60px rgba(58, 18, 110, 0.08);">
+        <div class="lg:col-span-7 bg-gradient-to-br from-white via-purple-50/30 to-white border-2 border-gray-100 rounded-[2rem] p-10 md:p-12 relative overflow-hidden group transition-all duration-500 animate-scale-in delay-400" style="box-shadow: 0 20px 60px rgba(58, 18, 110, 0.08);" onmouseover="this.style.borderColor='rgba(32, 156, 145, 0.4)'" onmouseout="this.style.borderColor=''">
           <!-- Verified Badge -->
-          <div class="absolute top-6 right-6 bg-prolongevity-lime text-white text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2 shadow-lg">
+          <div class="absolute top-6 right-6 text-white text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2 shadow-lg" style="background-color: #209c91;">
             <i class="fas fa-check-circle"></i>
             VERIFIED MEMBER
           </div>
 
           <!-- Glow Effect on Hover -->
-          <div class="absolute inset-0 bg-gradient-to-br from-prolongevity-lime/5 to-prolongevity-purple/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[2rem]"></div>
+          <div class="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[2rem]" style="background: linear-gradient(to bottom right, rgba(32, 156, 145, 0.05), rgba(58, 18, 110, 0.05));"></div>
 
           <div class="relative z-10">
             <!-- 5 Stars -->
             <div class="flex items-center gap-1 mb-8">
-              <i class="fas fa-star text-prolongevity-lime text-2xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-2xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-2xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-2xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-2xl"></i>
+              <i class="fas fa-star text-2xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-2xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-2xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-2xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-2xl" style="color: #209c91;"></i>
             </div>
 
             <!-- Quote -->
@@ -479,7 +506,7 @@
               </div>
               <div>
                 <h4 class="text-gray-900 font-bold text-2xl mb-1">Robert M.</h4>
-                <p class="text-prolongevity-lime font-semibold text-base">Sheffield Member</p>
+                <p class="font-semibold text-base" style="color: #209c91;">Sheffield Member</p>
               </div>
             </div>
 
@@ -502,7 +529,7 @@
         </div>
 
         <!-- TESTIMONIAL 2 - Roshni (Stacked on right) -->
-        <div class="lg:col-span-5 bg-gradient-to-br from-white via-lime-50/20 to-white border-2 border-gray-100 rounded-[2rem] p-8 relative overflow-hidden group hover:border-prolongevity-purple/40 transition-all duration-500 animate-scale-in delay-500" style="box-shadow: 0 20px 60px rgba(121, 187, 29, 0.08);">
+        <div class="lg:col-span-5 bg-gradient-to-br from-white to-white border-2 border-gray-100 rounded-[2rem] p-8 relative overflow-hidden group hover:border-prolongevity-purple/40 transition-all duration-500 animate-scale-in delay-500" style="background: linear-gradient(to bottom right, white, rgba(32, 156, 145, 0.02), white); box-shadow: 0 20px 60px rgba(32, 156, 145, 0.08);">
           <!-- Verified Badge -->
           <div class="absolute top-4 right-4 bg-prolongevity-purple text-white text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
             <i class="fas fa-check-circle text-xs"></i>
@@ -512,21 +539,21 @@
           <div class="relative z-10">
             <!-- 5 Stars -->
             <div class="flex items-center gap-1 mb-6">
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
             </div>
 
             <!-- Quote -->
             <blockquote class="text-gray-800 text-lg leading-relaxed font-playfair_display mb-8 italic">
-              "My <span class="text-prolongevity-lime font-bold not-italic">blood pressure has reduced</span>, my weight reduced, my skin better, mentally I feel better, I physically feel better and I'm receiving all the nutrients."
+              "My <span class="font-bold not-italic" style="color: #209c91;">blood pressure has reduced</span>, my weight reduced, my skin better, mentally I feel better, I physically feel better and I'm receiving all the nutrients."
             </blockquote>
 
             <!-- Author Info -->
             <div class="flex items-center gap-4">
-              <div class="w-16 h-16 rounded-full bg-gradient-to-br from-prolongevity-lime to-green-600 flex items-center justify-center text-white text-2xl font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <div class="w-16 h-16 rounded-full bg-gradient-to-br flex items-center justify-center text-white text-2xl font-bold shadow-lg group-hover:scale-110 transition-transform duration-300" style="background: linear-gradient(to bottom right, #209c91, #1a8078);">
                 R
               </div>
               <div>
@@ -536,27 +563,27 @@
             </div>
 
             <!-- Key Benefits -->
-            <div class="mt-6 pt-6 border-t border-gray-200 space-y-2">
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">Blood Pressure Normalized</span>
+            <div class="mt-6 pt-6 border-t border-gray-200 space-y-3">
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">Blood Pressure Normalized</span>
               </div>
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">Weight Loss Achieved</span>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">Weight Loss Achieved</span>
               </div>
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">Mental & Physical Wellbeing</span>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">Mental & Physical Wellbeing</span>
               </div>
             </div>
           </div>
         </div>
 
         <!-- TESTIMONIAL 3 - John (Bottom right) -->
-        <div class="lg:col-span-5 bg-gradient-to-br from-white via-purple-50/20 to-white border-2 border-gray-100 rounded-[2rem] p-8 relative overflow-hidden group hover:border-prolongevity-lime/40 transition-all duration-500 animate-scale-in delay-600" style="box-shadow: 0 20px 60px rgba(58, 18, 110, 0.08);">
+        <div class="lg:col-span-5 bg-gradient-to-br from-white via-purple-50/20 to-white border-2 border-gray-100 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-500 animate-scale-in delay-600" style="box-shadow: 0 20px 60px rgba(58, 18, 110, 0.08);" onmouseover="this.style.borderColor='rgba(32, 156, 145, 0.4)'" onmouseout="this.style.borderColor=''">
           <!-- Verified Badge -->
-          <div class="absolute top-4 right-4 bg-prolongevity-lime text-white text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg">
+          <div class="absolute top-4 right-4 text-white text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-lg" style="background-color: #209c91;">
             <i class="fas fa-check-circle text-xs"></i>
             VERIFIED
           </div>
@@ -564,11 +591,11 @@
           <div class="relative z-10">
             <!-- 5 Stars -->
             <div class="flex items-center gap-1 mb-6">
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
-              <i class="fas fa-star text-prolongevity-lime text-xl"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
+              <i class="fas fa-star text-xl" style="color: #209c91;"></i>
             </div>
 
             <!-- Quote -->
@@ -583,23 +610,23 @@
               </div>
               <div>
                 <h4 class="text-gray-900 font-bold text-xl mb-1">John</h4>
-                <p class="text-prolongevity-lime font-semibold text-sm">Medication-Free</p>
+                <p class="font-semibold text-sm" style="color: #209c91;">Medication-Free</p>
               </div>
             </div>
 
             <!-- Key Benefits -->
-            <div class="mt-6 pt-6 border-t border-gray-200 space-y-2">
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">10kg Weight Loss</span>
+            <div class="mt-6 pt-6 border-t border-gray-200 space-y-3">
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">10kg Weight Loss</span>
               </div>
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">Off All Medication</span>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">Off All Medication</span>
               </div>
-              <div class="flex items-center gap-2 text-sm">
-                <i class="fas fa-check text-prolongevity-lime"></i>
-                <span class="text-slate-700 font-medium">Hypertension Reversed</span>
+              <div class="flex items-center gap-3">
+                <i class="fas fa-check text-base" style="color: #209c91;"></i>
+                <span class="text-gray-900 font-semibold text-base">Hypertension Reversed</span>
               </div>
             </div>
           </div>
@@ -623,11 +650,11 @@
               <div class="bg-white/10 backdrop-blur-md border border-white/20 px-6 py-4 rounded-2xl text-center">
                 <div class="text-5xl font-bold text-white mb-1 font-playfair_display">4.9</div>
                 <div class="flex items-center justify-center gap-1 mb-2">
-                  <i class="fas fa-star text-prolongevity-lime text-sm"></i>
-                  <i class="fas fa-star text-prolongevity-lime text-sm"></i>
-                  <i class="fas fa-star text-prolongevity-lime text-sm"></i>
-                  <i class="fas fa-star text-prolongevity-lime text-sm"></i>
-                  <i class="fas fa-star text-prolongevity-lime text-sm"></i>
+                  <i class="fas fa-star text-sm" style="color: #209c91;"></i>
+                  <i class="fas fa-star text-sm" style="color: #209c91;"></i>
+                  <i class="fas fa-star text-sm" style="color: #209c91;"></i>
+                  <i class="fas fa-star text-sm" style="color: #209c91;"></i>
+                  <i class="fas fa-star text-sm" style="color: #209c91;"></i>
                 </div>
                 <div class="text-white/80 text-sm font-semibold">Average Rating</div>
               </div>
@@ -639,7 +666,7 @@
 
       <!-- Premium CTAs -->
       <div class="flex flex-col sm:flex-row gap-5 justify-center items-center animate-fade-in-up delay-800">
-        <button class="flex items-center justify-center gap-3 text-white text-[17px] font-bold px-12 py-5 rounded-full shadow-2xl hover:shadow-glow-lime transition-all duration-300 hover:-translate-y-2 hover:scale-105" style="background: linear-gradient(135deg, #79bb1d 0%, #6aa519 100%);">
+        <button class="flex items-center justify-center gap-3 text-white text-[17px] font-bold px-12 py-5 rounded-full shadow-2xl hover:shadow-glow-teal transition-all duration-300 hover:-translate-y-2 hover:scale-105" style="background: linear-gradient(135deg, #209c91 0%, #1a8078 100%);">
           <i class="fas fa-play-circle text-xl"></i>
           Watch the Free Webinar
         </button>
@@ -655,7 +682,7 @@
   <section class="relative py-32 bg-prolongevity-dark overflow-hidden text-white border-t border-white/5">
     <!-- Background Glows -->
     <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-purple-900/30 rounded-full blur-[120px] pointer-events-none"></div>
-    <div class="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-lime-900/20 rounded-full blur-[120px] pointer-events-none"></div>
+    <div class="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-teal-900/20 rounded-full blur-[120px] pointer-events-none"></div>
 
     <div class="max-w-[1400px] mx-auto px-6 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -663,8 +690,8 @@
         <!-- Text Content -->
         <div class="animate-fade-in-up delay-100">
           <div class="inline-block mb-6">
-            <div class="section-header" style="--tw-gradient-stops: #79bb1d, #79bb1d;">
-              <p class="text-prolongevity-lime font-bold tracking-[3px] text-sm uppercase">THE DATA SPEAKS</p>
+            <div class="section-header" style="--tw-gradient-stops: #209c91, #209c91;">
+              <p class="font-bold tracking-[3px] text-sm uppercase" style="color: #209c91;">THE DATA SPEAKS</p>
             </div>
           </div>
           <h2 class="text-white text-4xl md:text-6xl font-bold font-playfair_display mb-8 leading-tight">
@@ -685,7 +712,7 @@
               </div>
             </div>
             <div class="flex items-start gap-4">
-              <div class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0 text-prolongevity-lime">
+              <div class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center shrink-0" style="color: #209c91;">
                 <i class="fas fa-shield-alt text-xl"></i>
               </div>
               <div>
@@ -722,14 +749,14 @@
                 <circle cx="400" cy="50" r="5" fill="#ef4444" />
               </svg>
 
-              <!-- Line B: ProLongevity (Lime) -->
+              <!-- Line B: ProLongevity (Teal) -->
               <svg class="absolute inset-0 w-full h-full overflow-visible" preserveAspectRatio="none">
-                <path d="M0,50 Q150,200 400,220" fill="none" stroke="#79bb1d" stroke-width="4" class="drop-shadow-[0_0_15px_rgba(121,187,29,0.6)]">
+                <path d="M0,50 Q150,200 400,220" fill="none" stroke="#209c91" stroke-width="4" class="drop-shadow-[0_0_15px_rgba(32,156,145,0.6)]">
                   <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="3s" fill="freeze" />
                 </path>
                 <!-- Points -->
-                <circle cx="0" cy="50" r="5" fill="#79bb1d" />
-                <circle cx="400" cy="220" r="7" fill="#79bb1d" stroke="white" stroke-width="2" />
+                <circle cx="0" cy="50" r="5" fill="#209c91" />
+                <circle cx="400" cy="220" r="7" fill="#209c91" stroke="white" stroke-width="2" />
               </svg>
             </div>
 
@@ -740,8 +767,8 @@
                 <span class="text-red-400 text-base font-bold">After Mounjaro (The Rebound)</span>
               </div>
               <div class="flex items-center gap-3">
-                <div class="w-12 h-1 bg-prolongevity-lime rounded-full"></div>
-                <span class="text-prolongevity-lime text-base font-bold">ProLongevity (Freedom)</span>
+                <div class="w-12 h-1 rounded-full" style="background-color: #209c91;"></div>
+                <span class="text-base font-bold" style="color: #209c91;">ProLongevity (Freedom)</span>
               </div>
             </div>
             
@@ -836,13 +863,13 @@
   <section class="relative py-32 bg-slate-50 overflow-hidden">
     <!-- Atmospheric Background Effects -->
     <div class="absolute top-0 right-1/4 w-[600px] h-[600px] bg-purple-100/30 rounded-full blur-[120px] pointer-events-none"></div>
-    <div class="absolute bottom-0 left-1/4 w-[500px] h-[500px] bg-lime-100/40 rounded-full blur-[100px] pointer-events-none"></div>
+    <div class="absolute bottom-0 left-1/4 w-[500px] h-[500px] bg-teal-100/40 rounded-full blur-[100px] pointer-events-none"></div>
 
     <div class="max-w-[1400px] mx-auto px-6 relative z-10">
       <div class="text-center mb-20">
         <div class="inline-block mb-6 animate-fade-in-up">
-          <div class="section-header" style="--tw-gradient-stops: #79bb1d, #79bb1d;">
-            <p class="text-prolongevity-lime font-bold tracking-[3px] text-sm uppercase">YOUR INVESTMENT</p>
+          <div class="section-header" style="--tw-gradient-stops: #209c91, #209c91;">
+            <p class="font-bold tracking-[3px] text-sm uppercase" style="color: #209c91;">YOUR INVESTMENT</p>
           </div>
         </div>
         <h2 class="text-gray-900 text-5xl md:text-7xl font-bold font-playfair_display mb-8 leading-tight animate-fade-in-up delay-200">
@@ -856,7 +883,7 @@
         <!-- LEFT: HERO PRICING CARD (Spans 5 columns) -->
         <div class="lg:col-span-5 bg-gradient-to-br from-prolongevity-purple to-purple-700 rounded-[2rem] p-10 relative overflow-hidden animate-scale-in delay-300" style="box-shadow: 0 20px 60px rgba(58, 18, 110, 0.25);">
           <!-- Floating Badge -->
-          <div class="absolute top-6 right-6 bg-prolongevity-lime text-white text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2 shadow-lg animate-pulse">
+          <div class="absolute top-6 right-6 text-white text-xs font-bold px-4 py-2 rounded-full flex items-center gap-2 shadow-lg animate-pulse" style="background-color: #209c91;">
             <i class="fas fa-fire"></i>
             89% OFF
           </div>
@@ -878,12 +905,12 @@
 
             <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 mb-8">
               <p class="text-white text-base leading-relaxed italic">
-                That's <span class="font-bold text-prolongevity-lime">less than 6 weeks of Mounjaro</span> for a <span class="font-bold">permanent solution</span>.
+                That's <span class="font-bold" style="color: #209c91;">less than 6 weeks of Mounjaro</span> for a <span class="font-bold">permanent solution</span>.
               </p>
             </div>
 
             <!-- CTA Button -->
-            <button class="w-full flex items-center justify-center gap-3 text-prolongevity-purple bg-white text-[18px] font-bold px-8 py-5 rounded-full shadow-2xl hover:shadow-glow-lime transition-all duration-300 hover:-translate-y-1 hover:scale-105 mb-4">
+            <button class="w-full flex items-center justify-center gap-3 text-prolongevity-purple bg-white text-[18px] font-bold px-8 py-5 rounded-full shadow-2xl hover:shadow-glow-teal transition-all duration-300 hover:-translate-y-1 hover:scale-105 mb-4">
               <i class="fas fa-lock text-xl"></i>
               Secure Your Spot
             </button>
@@ -896,15 +923,15 @@
             <!-- Trust Badges -->
             <div class="grid grid-cols-3 gap-3 mt-8 pt-8 border-t border-white/20">
               <div class="text-center">
-                <i class="fas fa-shield-alt text-prolongevity-lime text-2xl mb-2"></i>
+                <i class="fas fa-shield-alt text-2xl mb-2" style="color: #209c91;"></i>
                 <p class="text-white/80 text-xs font-semibold">Money-Back</p>
               </div>
               <div class="text-center">
-                <i class="fas fa-lock text-prolongevity-lime text-2xl mb-2"></i>
+                <i class="fas fa-lock text-2xl mb-2" style="color: #209c91;"></i>
                 <p class="text-white/80 text-xs font-semibold">Secure</p>
               </div>
               <div class="text-center">
-                <i class="fas fa-bolt text-prolongevity-lime text-2xl mb-2"></i>
+                <i class="fas fa-bolt text-2xl mb-2" style="color: #209c91;"></i>
                 <p class="text-white/80 text-xs font-semibold">Instant Access</p>
               </div>
             </div>
@@ -917,8 +944,8 @@
           <!-- Item 1 -->
           <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-8 flex items-start justify-between gap-8 animate-scale-in delay-400" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
             <div class="flex items-start gap-5 flex-1">
-              <div class="w-12 h-12 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-video text-prolongevity-purple text-lg"></i>
+              <div class="w-12 h-12 rounded-full border-2 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-video text-lg" style="color: #209c91;"></i>
               </div>
               <div>
                 <h3 class="text-gray-900 text-xl font-bold mb-2 leading-tight">12 Weekly LIVE Coaching Sessions with Graham Phillips, FRPharmS</h3>
@@ -934,8 +961,8 @@
           <!-- Item 2 -->
           <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-8 flex items-start justify-between gap-8 animate-scale-in delay-500" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
             <div class="flex items-start gap-5 flex-1">
-              <div class="w-12 h-12 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-users text-prolongevity-purple text-lg"></i>
+              <div class="w-12 h-12 rounded-full border-2 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-users text-lg" style="color: #209c91;"></i>
               </div>
               <div>
                 <h3 class="text-gray-900 text-xl font-bold mb-2 leading-tight">Private Cohort Community (only 10 members - real accountability)</h3>
@@ -951,8 +978,8 @@
           <!-- Item 3 -->
           <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-8 flex items-start justify-between gap-8 animate-scale-in delay-600" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
             <div class="flex items-start gap-5 flex-1">
-              <div class="w-12 h-12 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-book-open text-prolongevity-purple text-lg"></i>
+              <div class="w-12 h-12 rounded-full border-2 flex items-center justify-center shrink-0 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-book-open text-lg" style="color: #209c91;"></i>
               </div>
               <div>
                 <h3 class="text-gray-900 text-xl font-bold mb-2 leading-tight">The "Metabolic Freedom" Framework (understand YOUR triggers)</h3>
@@ -970,8 +997,8 @@
             
             <!-- Item 4 -->
             <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-6 flex flex-col animate-scale-in delay-700" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
-              <div class="w-10 h-10 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-comments text-prolongevity-purple"></i>
+              <div class="w-10 h-10 rounded-full border-2 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-comments" style="color: #209c91;"></i>
               </div>
               <h3 class="text-gray-900 text-base font-bold mb-2 leading-tight">Weekly Q&A</h3>
               <p class="text-slate-600 text-sm mb-4 flex-1">Get your questions answered live</p>
@@ -981,8 +1008,8 @@
 
             <!-- Item 5 -->
             <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-6 flex flex-col animate-scale-in delay-800" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
-              <div class="w-10 h-10 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-infinity text-prolongevity-purple"></i>
+              <div class="w-10 h-10 rounded-full border-2 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-infinity" style="color: #209c91;"></i>
               </div>
               <h3 class="text-gray-900 text-base font-bold mb-2 leading-tight">Lifetime Access</h3>
               <p class="text-slate-600 text-sm mb-4 flex-1">Session recordings forever</p>
@@ -992,8 +1019,8 @@
 
             <!-- Item 6 -->
             <div class="bento-card bg-white border-2 border-gray-100 rounded-2xl p-6 flex flex-col animate-scale-in delay-900" style="box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);">
-              <div class="w-10 h-10 rounded-full border-2 border-prolongevity-purple/20 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors">
-                <i class="fas fa-clipboard-list text-prolongevity-purple"></i>
+              <div class="w-10 h-10 rounded-full border-2 flex items-center justify-center mb-4 group-hover:border-prolongevity-purple/40 transition-colors" style="border-color: rgba(32, 156, 145, 0.2);">
+                <i class="fas fa-clipboard-list" style="color: #209c91;"></i>
               </div>
               <h3 class="text-gray-900 text-base font-bold mb-2 leading-tight">Food Tracker</h3>
               <p class="text-slate-600 text-sm mb-4 flex-1">Know what works for YOUR body</p>
@@ -1028,7 +1055,7 @@
           <!-- Pricing Side -->
           <div class="p-12 md:p-16 bg-white/5 flex flex-col justify-center relative border-r border-white/10">
             <div class="inline-block mb-6">
-              <span class="bg-prolongevity-lime text-white text-xs font-bold px-4 py-1.5 rounded-full tracking-widest uppercase shadow-md">Most Popular</span>
+              <span class="text-white text-xs font-bold px-4 py-1.5 rounded-full tracking-widest uppercase shadow-md" style="background-color: #209c91;">Most Popular</span>
             </div>
             <h3 class="text-3xl font-bold text-white font-playfair_display mb-2">The 12-Week Programme</h3>
             <p class="text-slate-400 font-medium mb-10">A complete metabolic reset.</p>
@@ -1040,13 +1067,13 @@
             </div>
             <p class="text-slate-400 text-sm mb-10 pl-2 font-medium">Paid over 3 months. Total £297.</p>
             
-            <button class="w-full py-5 rounded-full text-white font-bold text-lg shadow-lg hover:shadow-glow-lime transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group" style="background: linear-gradient(135deg, #79bb1d 0%, #6aa519 100%);">
+            <button class="w-full py-5 rounded-full text-white font-bold text-lg shadow-lg hover:shadow-glow-teal transition-all duration-300 hover:-translate-y-1 relative overflow-hidden group" style="background: linear-gradient(135deg, #209c91 0%, #1a8078 100%);">
               <span class="relative z-10">Secure Your Spot</span>
               <div class="absolute inset-0 bg-white/20 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
             </button>
             
             <p class="text-center text-slate-400 text-xs mt-6 flex items-center justify-center gap-2 font-medium">
-              <i class="fas fa-info-circle text-prolongevity-lime"></i> Limited monthly spots to ensure dedicated support.
+              <i class="fas fa-info-circle" style="color: #209c91;"></i> Limited monthly spots to ensure dedicated support.
             </p>
           </div>
 
@@ -1056,7 +1083,7 @@
             <ul class="space-y-8">
               <li class="flex items-start gap-5 group">
                 <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-white/20 transition-colors">
-                  <i class="fas fa-check text-prolongevity-lime text-sm"></i>
+                  <i class="fas fa-check text-sm" style="color: #209c91;"></i>
                 </div>
                 <div>
                   <span class="text-white font-bold block text-lg mb-1">Continuous Glucose Monitor</span>
@@ -1065,7 +1092,7 @@
               </li>
               <li class="flex items-start gap-5 group">
                 <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-white/20 transition-colors">
-                  <i class="fas fa-check text-prolongevity-lime text-sm"></i>
+                  <i class="fas fa-check text-sm" style="color: #209c91;"></i>
                 </div>
                 <div>
                   <span class="text-white font-bold block text-lg mb-1">12 Weekly Live Coaching</span>
@@ -1074,7 +1101,7 @@
               </li>
               <li class="flex items-start gap-5 group">
                 <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-white/20 transition-colors">
-                  <i class="fas fa-check text-prolongevity-lime text-sm"></i>
+                  <i class="fas fa-check text-sm" style="color: #209c91;"></i>
                 </div>
                 <div>
                   <span class="text-white font-bold block text-lg mb-1">Personalized Nutrition</span>
@@ -1083,7 +1110,7 @@
               </li>
               <li class="flex items-start gap-5 group">
                 <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-white/20 transition-colors">
-                  <i class="fas fa-check text-prolongevity-lime text-sm"></i>
+                  <i class="fas fa-check text-sm" style="color: #209c91;"></i>
                 </div>
                 <div>
                   <span class="text-white font-bold block text-lg mb-1">Direct Access to Graham</span>
@@ -1096,9 +1123,9 @@
       </div>
       
       <div class="flex justify-center gap-10 mt-16 text-slate-400 text-sm font-semibold tracking-wide">
-        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-lock text-prolongevity-lime"></i> Secure Payment</span>
-        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-undo text-prolongevity-lime"></i> Money-Back Guarantee</span>
-        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-calendar text-prolongevity-lime"></i> Cancel Anytime</span>
+        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-lock" style="color: #209c91;"></i> Secure Payment</span>
+        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-undo" style="color: #209c91;"></i> Money-Back Guarantee</span>
+        <span class="flex items-center gap-2 hover:text-white transition-colors cursor-default"><i class="fas fa-calendar" style="color: #209c91;"></i> Cancel Anytime</span>
       </div>
     </div>
   </section>
@@ -1155,7 +1182,7 @@
             <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80" alt="Natural Alternatives" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-80"></div>
             <div class="absolute bottom-6 left-6 right-6">
-              <span class="bg-prolongevity-lime text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-3 inline-block">The Solution</span>
+              <span class="text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-3 inline-block" style="background-color: #209c91;">The Solution</span>
               <h3 class="text-white text-xl font-bold font-playfair_display leading-tight group-hover:underline decoration-2 underline-offset-4">
                 How to Achieve the Same Results Without Drugs
               </h3>
